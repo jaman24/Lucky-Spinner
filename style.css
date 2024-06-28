@@ -1,0 +1,86 @@
+/* css for spinner wheel */
+.wheel{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.center-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 30px solid black; 
+    position: absolute;
+    top: 50%;
+    right: -220%;
+    transform: translateY(-50%);
+}
+.spinBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* css for input section */
+.input-head{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+}
+.inputArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* css for winner popup */
+.winner-popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    max-width: 300px;
+    top: 247px;
+    margin-left: 120px;
+    transform: translateY(-50%);
+    background-color: rgba(5, 5, 5, 0.926);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .popup-content {
+    color: #fff;
+  }
+  .popup-text{
+    color: #fff;
+    font-size: large;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  
