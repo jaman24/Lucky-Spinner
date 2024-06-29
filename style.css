@@ -32,6 +32,7 @@
 
 /* css for input section */
 .input-head{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -83,4 +84,24 @@ textarea{
     border: 1px solid white;
     border-radius: 50%;
   }
+  /* Responsive Media */
+  @media(min-width:0px) and (max-width:575.98px){
+    .triangle{
+        top: 50%;
+        right: -155%;
+        transform: translateY(-50%);
+    }
+    canvas{
+        height: 300px;
+        width: 300px;
+    }
+    .winner-popup {
+        top: 200px;
+        margin-left: 10px;
+      }
+    
+}
+
+
+
   
